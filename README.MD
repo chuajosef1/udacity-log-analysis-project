@@ -31,10 +31,11 @@ Follow these steps below to access the project:
 ## Create Views
 
 These views were created to help supplement in answering the 3rd query in the project, by breaking the question down into smaller portions.
-The first view:
-create view total as
-select date(time) as errortime , count(date(time)) as visitors
-from log group by errortime;
+
+    The first view:
+    	create view total as
+    	select date(time) as errortime , count(date(time)) as visitors
+    	from log group by errortime;
 
     The second view:
     	create view logerror as
