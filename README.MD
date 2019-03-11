@@ -57,5 +57,6 @@ If you are having trouble accessing the '\vagrant' folder once you are in 'vagra
 3. Check 'task manager' to make sure no other 'Virtual Box' programs are running.
 4. Close all programs involving any files contained within the folder 'FSND-Virtual-Machine'.
 5. Close out 'Git Bash'.
-6. Once that is done, open up the 'FSND-Virtual-Machine\vagrant' and type 'vagrant up', then 'vagrant ssh'.
-7. After that type 'cd /vagrant' and type 'ls' to check to see if you now have access to all the shared files contained within the folder.
+6. Once that is done, open up the 'FSND-Virtual-Machine\vagrant'and right-click to select 'git bash' 
+7. Type 'vagrant up', then 'vagrant ssh'.
+8. After that type 'cd /vagrant' and type 'ls' to check to see if you now have access to all the shared files contained within the folder.
