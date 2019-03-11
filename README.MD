@@ -1,4 +1,4 @@
-#Log Analysis
+# Log Analysis
 
 The first assignment in Udacity's full stack web development nanodegree program.
 
